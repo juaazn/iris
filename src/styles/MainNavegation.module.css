@@ -1,0 +1,116 @@
+.containerNav {
+  width: 10%;
+  container: btnsidebar / inline-size;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right,
+    #DABEAF 1%,
+    #DABEAF 20%,
+    #C8AC9E 1%,
+    #C8AC9E 40%,
+    #510404 1%,
+    #510404 80%
+  );
+  position: relative;
+}
+
+.containerNav__barButton {
+  width: 5rem;
+  height: 4rem;
+  margin: 1.2rem;
+  z-index: 20;
+  background-color: var(--color-secundary);
+  outline: .150rem dashed var(--color-primary);
+  outline-offset: -.4rem;
+  box-shadow: 0 0 .9rem var(--color-complement);
+  cursor: pointer;
+}
+
+.containerNav__barButton__left {
+  width: 5rem;
+  height: 4rem;
+  background-color: aqua;
+}
+
+.containerNav__imgButtom {
+  max-width: 100%;
+}
+
+.contanerNav__sidebar {
+  width: 18rem;
+  height: 100%;
+  display: flex;
+  background-color: var(--color-secundary);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 10;
+  right: 1rem;
+  transition: all 1s;
+}
+
+.contanerNav__sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contanerNav__sidebar ul a {
+  display: block;
+  margin-left: 1.8rem;
+  color: var(--color-primary);
+  font-size: var(--button-nav);
+}
+
+.contanerNav__sidebar ul a {
+  position: relative;
+}
+
+.contanerNav__sidebar ul a::before { 
+  content: '';
+  position: absolute;
+  width: 0%;
+  background-color: var(--color-primary);
+  left: 0;
+  bottom: 0;
+  height: .3rem;
+  transition: all 0.2s;
+}
+
+.contanerNav__sidebar ul a:hover::before { 
+  width: 100%;
+}
+
+.sidebarActive {
+  display: none;
+}
+
+@container btnsidebar (max-width: 3rem) {
+  .containerNav__barButton {
+    width: 3rem;
+    height: 2.5rem;
+    margin: 0;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  .containerNav__barButton .containerNav__imgButtom {
+    max-width: 1.6rem;
+  }
+  .contanerNav__sidebar {
+    position: absolute;
+    right: 1rem;
+    z-index: 6;
+  }
+}
+
+@container btnsidebar (width > 3rem) and (width < 6.45rem) {
+  .containerNav__barButton {
+    margin: 0;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}

@@ -1,0 +1,8 @@
+.knowMore {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  font-size: x-large;
+  color: var(--color-complement);
+  text-align: center;
+}

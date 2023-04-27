@@ -1,0 +1,23 @@
+.contiener {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__img {
+  width: 5rem;
+}
+
+.subtitle {
+  font-size: 6rem;
+}
+
+.contiener__storyTitle {
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

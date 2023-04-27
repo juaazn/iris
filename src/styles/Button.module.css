@@ -1,0 +1,20 @@
+.mainButton {
+  width: 50%;
+  height: 2rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: var(--color-primary);
+  background-color: var(--color-secundary);
+  outline: .150rem dashed var(--color-primary);
+  outline-offset: -.4rem;
+}
+
+@media (max-width: 30rem) {
+  .mainButton {
+    font-size: large;
+  }
+}

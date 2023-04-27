@@ -1,0 +1,23 @@
+.userButton {
+  width: 15rem;
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-secundary);
+  font-size: large;
+  color: var(--color-primary);
+  outline: .15rem dashed var(--color-primary);
+  outline-offset: -.4rem;
+}
+
+.userButton__none {
+  display: none;
+  visibility: hidden;
+}
+
+@media (max-width: 30rem) {
+  .userButton {
+    width: 12rem;
+    height: 3rem;
+  }
+}

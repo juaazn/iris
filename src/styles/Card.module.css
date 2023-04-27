@@ -1,0 +1,162 @@
+.container {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.content__users {
+  width: 30rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  line-height: 10rem;
+}
+
+.content__users__left {
+  width: 30rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 2rem;
+  line-height: 10rem;
+}
+
+.container__image {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__image__left {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: -1;
+}
+
+.image {
+  max-width: 20rem;
+  object-fit: cover;
+}
+
+@media (max-width: 30rem) {
+  .container {
+    height: 60rem;
+  }
+  .content__users {
+    width: 100%;
+  }
+
+  .container__image {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .container__image__left {
+    width: 100%;
+    height: 20rem;
+    order: 0;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+  
+  .title {
+    font-size: xx-large;
+  }
+
+  .text {
+    font-size: larger;
+  }
+}
+
+@media (min-width: 30rem) and (max-width: 65rem) {
+  .container {
+    margin: 5rem 0;
+  }
+
+  .content__users {
+    height: auto;
+  }
+
+  .content__users__left {
+    height: auto;
+  }
+
+  .container__image {
+    width: 15rem;
+    height: 20rem;
+  }
+
+  .container__image__left {
+    width: 15rem;
+    height: 20rem;
+    order: -1;
+  }
+
+  .title {
+    font-size: xx-large;
+  }
+
+  .text {
+    width: 100%;
+    font-size: x-large;
+  }
+
+  .container__image__left {
+    width: 20rem; 
+  }
+
+  .image {
+    max-width: 15rem;
+  }
+} 
+
+@media (min-width: 65rem) {
+  .container {
+    height: auto;
+  }
+
+  .content__users {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .title {
+    font-size: xx-large;
+  }
+
+  .text {
+    width: 100%;
+    font-size: x-large;
+    line-height: 1.2;
+  }
+  .container__image__left {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: -1;
+  }
+
+  .image {
+    max-width: 20rem;
+  }
+}

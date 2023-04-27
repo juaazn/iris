@@ -1,0 +1,18 @@
+.backgrBook {
+  width: 90vw;
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+  background-image: linear-gradient(
+    to right,
+    #efd7c7 2%,
+    #e0cabb,
+    #c2b0a4 8%,
+    #e2c9b8 8%,
+    #d6bfaf 8%,
+    #efd7c7 10%,
+    #efd7c7 98%,
+    rgba(226, 201, 184, .1) 1%,
+    rgb(235, 212, 196, .99) 2%
+  );
+}

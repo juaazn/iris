@@ -10,8 +10,10 @@ export default function Verde () {
       <Title title='RELATOS DE LA COMUNIDAD'/>
       <BarNavegation />
       <StoryTitle name='Azul' nameColor='blue' svgName='azul'/>
-      <CardInfoUser name='DAVID, 25 AÑOS' butt={false} />
-      <CardInfoUser name='SARA, 20 AÑOS' imageLeft={false} left={false} butt={false}/>
+      <CardInfoUser
+      name='MIGUEL, 23 AÑOS'
+      butt={false}
+      texto='En el colegio tuve la oportunidad de formar una amistad con un amigo que ahora se reconoce como mujer, viví y evidencie el proceso por el cual paso, desde sufrir de comentarios negativos por sus preferencias o forma de activar, hasta ver el rechazo de los demás. A pesar de todo estuve allí, y ahora ver su proceso y la nueva decisión que ha tomado me llena de orgullo y felicidad.'/>
     </LayoutContent>
   )
 }

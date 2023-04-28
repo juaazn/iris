@@ -10,8 +10,11 @@ export default function RelatosDeLaComunidad () {
       <Title title='RELATOS DE LA COMUNIDAD'/>
       <BarNavegation color={true}/>
       <StoryTitle name='Rojo'svgName='rojo' nameColor='#FF0000'/>
-      <CardInfoUser name='DAVID, 25 AÑOS' butt={false} />
-      <CardInfoUser name='SARA, 20 AÑOS' imageLeft={false} left={false} butt={false}/>
+      <CardInfoUser
+      name='Luisa, 20 AÑOS'
+      imgName='user-sara'
+      butt={false}
+      texto='Hace siete años conocí que era una amar a una persona por su alma y no por su identidad de género, a pesar de los problemas y estigmas de las demás personas. Años después pude estar con esa persona hasta el día de hoy llenándome de orgullo poder amar sin ser juzgada.'/>
     </LayoutContent>
   )
 }

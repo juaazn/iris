@@ -9,7 +9,9 @@ export default function Verde () {
     <Title title='RELATOS DE LA COMUNIDAD'/>
     <BarNavegation />
     <StoryTitle name='Verde' nameColor='green' svgName='verde'/>
-    <CardInfoUser name='DAVID, 25 AÑOS' butt={false} />
-    <CardInfoUser name='SARA, 20 AÑOS' imageLeft={false} left={false} butt={false}/>
+    <CardInfoUser
+    name='NICOL, 20 AÑOS'
+    butt={false}
+    texto='Mi hermano hace parte de la comunidad, a él le costaba mucho el hecho de guardar ese secreto, pero con su forma de ser, era complicada ocultar. Mi mamá y yo lo sabíamos desde mucho antes que él nos contara, pero el hecho de que él tuviera la fuerza para salir y ser feliz, nos alegró mucho. Porque después de esto él sonríe más y yo soy más feliz al verlo y saber que ya puede ser feliz.'/>
   </LayoutContent>)
 }

@@ -10,8 +10,10 @@ export default function Verde () {
       <Title title='RELATOS DE LA COMUNIDAD'/>
       <BarNavegation />
       <StoryTitle name='Amarillo' nameColor='yellow' svgName='amarillo'/>
-      <CardInfoUser name='DAVID, 25 AÑOS' butt={false} />
-      <CardInfoUser name='SARA, 20 AÑOS' imageLeft={false} left={false} butt={false}/>
+      <CardInfoUser
+      name='MILENA, 21 AÑOS'
+      butt={false}
+      texto='A lo largo de mi vida he tenido un buen acercamiento a la comunidad, y aunque no pertenezco a ella, siempre me hace feliz ver el apoyo que se tiene entre ellos.'/>
     </LayoutContent>
   )
 }

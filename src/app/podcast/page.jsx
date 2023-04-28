@@ -11,7 +11,8 @@ export default function Podcast () {
       imgName='podcast-img'
       titletex='"¡Bienvenidos al podcast de Iris! Aquí, nos adentramos en las emocionantes historias de la comunidad LGBTIQ+ mientras exploramos las experiencias, los desafíos y los triunfos que se encuentran entre las páginas del libro."'/>
       <KnowMore name='¿QUIRES ESCUCHARNOS?'/>
-      <Button name='Haz Click aquí'/>
+      <Button name='Haz Click aquí'
+      page='https://soundcloud.com/proyectoiris'/>
     </LayoutContent>
   )
 }

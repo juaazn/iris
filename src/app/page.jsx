@@ -18,7 +18,7 @@ export default function Home () {
           </p>
           <div className={styles.containerMainButton}>
             <h2 className={styles.mainPage__subTitle}>¿QUIERES SABER MÁS?</h2>
-            <Button name='Pasar Página' />
+            <Button name='Pasar Página' page='historias' />
           </div>
         </section>
       </div>

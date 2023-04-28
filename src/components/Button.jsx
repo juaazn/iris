@@ -4,6 +4,6 @@ import Link from 'next/link'
 
 export default function Button ({ name = 'Botón', page }) {
   return (
-    <Link className={styles.mainButton} href={`/${page}`}>{name}</Link>
+    <Link className={styles.mainButton} href={`${page}`}>{name}</Link>
   )
 }

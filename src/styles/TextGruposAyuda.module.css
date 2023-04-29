@@ -4,15 +4,11 @@
   margin: 2rem 0;
 }
 
-.infoContainer .infoContainer__flex {
-  list-style-type: disc;
-}
-
 .infoContainer__flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: .8rem;
 }
 
@@ -25,6 +21,10 @@
   margin: .8rem 0 0 0;
   font-size: x-large;
   color: var(--color-secundary);
+}
+
+.infoContainer img {
+  max-width: 10rem;
 }
 
 @media (max-width: 30rem) {

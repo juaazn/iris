@@ -2,6 +2,9 @@ import LayoutContent from '@/components/LayoutContent'
 
 import CardInfoUser from '@/components/CardInfoUser'
 import Title from '@/components/Title'
+import DataViz from '@/components/DataViz'
+import IframeDataViz from '@/components/IframeDataViz'
+import KnowMore from '@/components/KnowMore'
 
 export default function Historias () {
   return (
@@ -18,6 +21,13 @@ export default function Historias () {
       nameEnlace='historias/sara'
       imgName='user-sara'
       texto='Conoce a Sara, una talentosa estudiante de cine y televisión de 20 años, cuya valentía la lleva a revelar su verdadera orientación sexual a sus padres. Esta historia, contada a través de los ojos de Hugo, el padre de Sara, te invita a un viaje de reflexión y descubrimiento, donde los lazos familiares se fortalecen en medio de los desafíos que la vida les presenta. ¡Acompáñanos en esta travesía emocional y déjate inspirar por la poderosa historia de Sara y su familia!'/>
+      <KnowMore name='INTERACTUA CON NUESTROS DATOS'/>
+      <DataViz>
+        <IframeDataViz urlDataViz='https://view.genial.ly/643f3239f76756001145f66c'/>
+        <IframeDataViz urlDataViz='https://view.genial.ly/643f2dc134278e0011ec0b3f' />
+        <IframeDataViz urlDataViz='https://view.genial.ly/643f551134278e0011ec54ef' />
+        <IframeDataViz urlDataViz='https://view.genial.ly/643eae53dcac7f0018a1bb5e' />
+      </DataViz>
     </LayoutContent>
   )
 }

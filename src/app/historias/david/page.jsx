@@ -15,7 +15,7 @@ export default function David () {
       El saca su celular y llama a su pareja.
       Donde tiene una conversación corta con su esta y le pide posada.
       David cuelga la llamada y se queda mirando su la pantalla de su celular en la cual aparece una foto de el y de su madre. David llega a la casa de su pareja, se detiene frente a la puerta y toca el timbre. Al abrir la puerta, David se encuentra con todos sus amigos reunidos en la sala, quienes lo reciben con abrazos y palabras de apoyo, los amigos de David le brindan su apoyo. se ve a David sentado a la mesa mientras sus amigos le sirven comida caliente y lo animan a comer para que se sienta mejor.'/>
-      <VideoDraw name='David' urlIframe='https://video.eko.com/preview/zggEGB?url=%2F%2Fstage.eko.com%2Fprojects%2FMQXBNN%2F4e349c10-e321-11ed-aab4-2d37f15e6c69%2Farchive%2Fpreview%2F1682399877655%2Fembed.html&APIVersion=4.0.0&autoplay=true'/>
+      <VideoDraw name='David' urlIframe='https://video.eko.com/preview/zggEGB?url=%2F%2Fstage.eko.com%2Fprojects%2FMQXBNN%2F4e349c10-e321-11ed-aab4-2d37f15e6c69%2Farchive%2Fpreview%2F1683081122076%2Fembed.html&APIVersion=4.0.0&autoplay=true'/>
     </LayoutContent>
   )
 }

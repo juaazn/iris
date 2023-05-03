@@ -26,6 +26,7 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "camelcase": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "quote-props": "off"
   }
 }

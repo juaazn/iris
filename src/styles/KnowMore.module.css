@@ -2,7 +2,15 @@
   width: 100%;
   height: auto;
   margin: 1rem 0;
-  font-size: x-large;
+  font-size: xx-large;
   color: var(--color-complement);
   text-align: center;
+}
+
+.knowMore__left {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  font-size: xx-large;
+  color: var(--color-complement);
 }

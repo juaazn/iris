@@ -11,7 +11,27 @@ export const metadata = {
     template: '%s | Iris',
     default: 'Iris'
   },
-  description: 'Derechos de la comunidad lgtbiqa+'
+  keywords: ['lgtb', 'LGTB', 'LGTBIQA+', 'lgtbiqa+', 'gay', 'lesbiana', 'libro', 'libros', 'historias', 'relatos', 'información', 'personas', 'iris', 'proyecto', 'vivencias', 'colombia', 'bogotá', 'medellín', 'derechos', 'comunidad', 'escribir'],
+  description: 'Historias de la comunidad LGTBIQA+. Aquí podras leer, informarte, visualizar historias o podcast donde enontras a decenas de personas narrar sus historias',
+  colorScheme: 'light',
+  creator: 'Juan Diego Acosta Liscano',
+  authors: [{ name: 'Juan Diego Acosta' }, { name: 'Javier Lozano Guarnizo' }],
+  type: 'article',
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1
+    }
+  },
+  category: 'social',
+  applicationName: 'Iris'
 }
 
 const abhayaLibre = Abhaya_Libre({
@@ -22,9 +42,9 @@ const abhayaLibre = Abhaya_Libre({
 
 export default function RootLayout ({ children }) {
   return (
-    <html lang="es">
+    <html className={abhayaLibre.className} lang="es">
       <GoogleAnalytics />
-      <body className={abhayaLibre.className}>
+      <body>
       <main className='containerLayout'>
         <BackgroundBook>
             {children}

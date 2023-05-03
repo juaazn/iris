@@ -1,6 +1,7 @@
 import styles from '../styles/home.module.css'
 
 import Button from '../components/Button'
+import CookieBanner from '@/components/CookieBanner'
 
 export default function Home () {
   return (
@@ -21,6 +22,7 @@ export default function Home () {
             <Button name='Pasar Página' page='/historias' />
           </div>
         </section>
+        <CookieBanner />
       </div>
     </div>
   )

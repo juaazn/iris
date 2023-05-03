@@ -4,6 +4,7 @@ import '../styles/globals.css'
 
 import BackgroundBook from '../components/BackgroundBook.jsx'
 import MainNavegation from '../components/MainNavegation.jsx'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 export const metadata = {
   title: {
@@ -21,7 +22,8 @@ const abhayaLibre = Abhaya_Libre({
 
 export default function RootLayout ({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
+      <GoogleAnalytics />
       <body className={abhayaLibre.className}>
       <main className='containerLayout'>
         <BackgroundBook>

@@ -34,7 +34,7 @@
 }
 
 .textTitle {
-  width: inherit;
+  width: 79%;
   height: auto;
   font-size: x-large;
   color: var(--color-complement);

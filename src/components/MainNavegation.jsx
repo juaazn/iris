@@ -23,6 +23,7 @@ const MainNavegation = () => {
           <Link href='/diccionario'>Diccionario</Link>
           <Link href='/podcast'>Podcast</Link>
           <Link href='/grupos-de-ayuda'>Grupos de ayuda</Link>
+          <Link href='/data-viz'>Data Viz</Link>
         </ul>
       </aside>
     </nav>

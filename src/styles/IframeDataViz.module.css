@@ -1,4 +1,11 @@
 .iframe {
-  width: auto;
-  height: auto;
+  width: 25rem;
+  height: 25rem;
+}
+
+@media (max-width: 30rem) {
+  .iframe {
+    width: 15rem;
+    height: 15rem;
+  }
 }
